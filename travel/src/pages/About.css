@@ -1,0 +1,51 @@
+.about-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+.about-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  max-width: 600px;
+  width: 100%;
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+p, li {
+  color: #555;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+.founders {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+
+.founder {
+  text-align: center;
+}
+
+.founder img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
